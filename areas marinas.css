@@ -1,0 +1,73 @@
+.nav{ 
+    font-weight: bold;
+    max-width: 100%;
+    display: flex; 
+    position: static;
+}
+
+.wrapper-h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #032A49;
+    box-sizing: border-box;
+    padding: 8px;
+ 
+}
+.deck{
+    display: flex;
+    flex-basis: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+
+
+}
+.card{
+    max-width: 300px;
+    min-width: 280px;
+    font-size: 1.5rem;
+    padding: .25rem;
+    font-family: IBM+PLEX serif;
+    font-weight: bold;
+    border: 0,30px solid;
+    border-radius: .5rem;
+    box-shadow: 2px 4px 6px rgba(0,0,0, 0.25);
+    }
+.card img{  
+    padding: .25rem; 
+    max-width: 100%
+}
+.card img:hover{
+    transition: 400ms;
+    filter:invert(500) ;
+}
+
+.tarjeta{
+    box-shadow: 3px 4px 5px rgba(0,0,0,.25);
+    max-width: 100%;
+}
+footer{
+     padding: .5rem;
+
+     }
+     
+
+.button-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 300px;
+    min-width: 280px;
+
+}
+main{
+    max-width: 1000px;
+    margin: auto;
+    font-size: 2rem;
+
+}
+.button.usuario{
+    display: flex;
+    align-items:center;
+}
